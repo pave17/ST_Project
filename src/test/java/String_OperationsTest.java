@@ -1,7 +1,7 @@
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.jnuit.Assert.*;
+import static org.junit.Assert.*;
 
 public class String_OperationsTest {
     public static StringOperations StringOperation;
@@ -11,8 +11,26 @@ public class String_OperationsTest {
         StringOperation = new StringOperations();
     }
 
+
     @Test
     public void testconcatenation(){
-        assertEquals("Allday", StringOperations.StringConcatenation("All","day")):
+        assertEquals("Snowball", StringOperation.StringConcatenation("Snow", "ball"));
     }
+
+
+    @Test
+    public void test_countVowels(){
+        assertEquals(3, StringOperation.countVowels("Ibrahim"));
+    }
+
+
+
+
+    /// Author: Pravalika
+    // Description : Integration tests which is a combination of countVowels, StringConcatenation and String Reverse
+    @Test
+    public void Pravalika_test_Integration(){
+        assertEquals(2,StringOperation.countVowels(StringOperation.reverseString(StringOperation.StringConcatenation("ma","dam"))));
+    }
+
 }
