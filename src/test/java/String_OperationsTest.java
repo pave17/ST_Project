@@ -28,7 +28,7 @@ public class String_OperationsTest {
 
     @Test
     public void test_countVowels(){
-        assertEquals(4, StringOperation.countVowels("Ibrahim"));
+        assertEquals(3, StringOperation.countVowels("Ibrahim"));
     }
     //Author: Ibrahim
     //Description: This test tests the count consonants
