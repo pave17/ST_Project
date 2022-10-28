@@ -20,7 +20,7 @@ public class String_OperationsTest {
 
     @Test
     public void test_countVowels(){
-        assertEquals(3, StringOperation.countVowels("Ibrahim"));
+        assertEquals(1, StringOperation.countVowels("ball"));
     }
 
 
