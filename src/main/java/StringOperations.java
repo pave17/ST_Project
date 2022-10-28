@@ -2,17 +2,8 @@ import java.util.Arrays;
 
 
 public class StringOperations {
-    //Author: Rohith
-    //Description: This function is used to reverse the given string
-    public static String reverseString(String str) {
-        char ch[] = str.toCharArray();
-        String rev = "";
-        for (int i = ch.length - 1; i >= 0; i--) {
-            rev += ch[i];
-        }
-        return rev;
 
-    }
+
 
     /// Author: Rohith
     //Description: This function is to merge two strings
