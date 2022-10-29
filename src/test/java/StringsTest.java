@@ -29,4 +29,10 @@ public class StringsTest {
     public void testcountVowels(){
         assertEquals(3, String.countVowels("India"));
     }
+
+    //Description: Integration tests which is a cobination of countVowels, StringConcatenation and String Reverse
+    @Test
+    public void pave_test_Integration(){
+        assertEquals(2.String.countVowels(String.reverseString(String.StringConcatenation("race","car"))));
+    }
 }
