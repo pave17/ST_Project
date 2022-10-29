@@ -24,10 +24,7 @@ public class StringsTest {
 
     @Test
     public void testconcatenation(){
-        asserEquals("AllDay", String.StringConcatenation("All","Day"));
-    }
-
-    private void asserEquals(java.lang.String allDay, java.lang.String stringConcatenation) {
+        assertEquals("AllDay", String.StringConcatenation("All","Day"));
     }
 
     //Description: This test case is used to test the count vowels method
