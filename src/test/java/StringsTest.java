@@ -1,10 +1,7 @@
-import org.jnuit.BeforeClass;
-import org.jnuit.Test;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.jnuit.Assert.*;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class StringsTest {
     public static Strings String;
