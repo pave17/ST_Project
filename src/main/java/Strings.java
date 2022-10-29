@@ -7,7 +7,7 @@ public class Strings {
         char ch[] = str.toCharArray();
         String rev = "";
         for (int i = ch.length - 1; i >= 0; i--) {
-            rev += ch;
+            rev += ch[i];
         }
         return ch;
 
