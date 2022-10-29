@@ -9,10 +9,10 @@ public class Strings {
         for (int i = ch.length - 1; i >= 0; i--) {
             rev += ch[i];
         }
-        return ch;
+        return rev;
 
     }
-    return 0;
+
 
     // Description: This function merges two strings
     public static String StringConcatenation(String s1, String s2) {
