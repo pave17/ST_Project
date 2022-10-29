@@ -4,6 +4,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.jnuit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class StringsTest {
     public static Strings String;
@@ -24,6 +25,9 @@ public class StringsTest {
     @Test
     public void testconcatenation(){
         asserEquals("AllDay", String.StringConcatenation("All","Day"));
+    }
+
+    private void asserEquals(java.lang.String allDay, java.lang.String stringConcatenation) {
     }
 
     //Description: This test case is used to test the count vowels method
