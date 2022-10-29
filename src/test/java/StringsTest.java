@@ -18,4 +18,17 @@ public class StringsTest {
     public void testreversestring(){
         assertEquals("level", String.reverseString("level"));
     }
+
+    //Description: This test case is used to test the concatenation of strings function
+
+    @Test
+    public void testconcatenation(){
+        asserEquals("AllDay", String.StringConcatenation("All","Day"));
+    }
+
+    //Description: This test case is used to test the count vowels method
+    @Test
+    public void testcountVowels(){
+        assertEquals(3, String.countVowels("India"));
+    }
 }
